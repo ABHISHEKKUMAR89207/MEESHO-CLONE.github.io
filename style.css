@@ -1,0 +1,428 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navigationbar
+    {width: 100%;
+        height: 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(214, 209, 209);
+    }
+    .logo{display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width: 12rem;
+        height: 3rem;
+        padding-right: 1rem;
+    }
+.logo input{
+    padding: 15px;
+    width: 25rem;
+    border-radius:5px;
+    border: 1px solid black;
+}
+.logo a{
+    font-size: 3rem;
+    font-weight:630;
+    padding:0px 12px 0px 12px;
+    text-decoration: none;
+    color: rgb(231, 97, 225);
+}
+
+.navigation{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.navigation ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.navigation ul li{
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 18px;
+    list-style: none;
+    color: black;
+}
+.borderli{
+    border-right: 2px solid rgb(214, 209, 209);
+}
+.liapply a:hover{
+    color: rgb(199, 40, 199);
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+#contentofpage{
+    border-bottom: 1px solid rgb(214, 209, 209);
+}
+.contentcontainer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.contentcontainer ul li{
+    list-style: none;
+    padding: 9px 0px 0px 0px;
+    border-bottom: 2px solid white;
+
+}
+.contentcontainer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    
+}
+.contentcontainer ul li a:hover{
+    color: rgb(231, 97, 225);
+}
+.contentcontainer ul li:hover{
+    border-bottom: 2px solid rgb(231, 97, 225);
+}
+#websitebannerposter{
+    margin-bottom: 15px;
+}
+.bannerweb{
+    margin: 50px 120px 50px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content:right;
+    background-color: whitesmoke;
+}
+.banner1{
+    width: 50%;
+    justify-content: center;
+}
+.banner1 p {
+    padding-top: 25px;
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.849);
+}
+.banner1  img{
+    width: auto;
+    border-radius: 9px;
+}
+.banner1 a img{
+    width: 25px;
+    border-radius: 9px;
+}
+.banner1 a{text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 32px 15px 32px; 
+    width: 300px;
+    font-size: large;
+    background-color: rgb(231, 97, 225);
+}.overlin{
+    height: 2px;
+    background-color: rgb(231, 97, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#overlinetext{
+    font-size: 35px;
+    font-weight: 600;
+    background-color: white;
+    color: rgb(80, 78, 78);
+    box-shadow: 0px 10px 15px 15px white;
+}
+.topcat{
+    background-image: url("img/back1.jpg");
+    width: 85%;
+    height: 700px;
+    margin: 20px auto;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.topcat2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.secondoff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.topcat2 img{
+   width: fit-content;
+   height: fit-content;
+}
+.img1off{
+    margin-top: 170px;
+}
+.topcat2 p{
+    font-size: 60px;
+}
+#productofferzone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 33rem;
+    margin: 7px auto;
+    background-image: url("img/back2.jpg");
+    background-size: cover;
+    margin-bottom: 55px;
+}
+.productzone
+{ width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.productzone a{
+    text-decoration: none;
+    margin: 7px;
+    color: white;
+    padding: 7px 27px 7px 27px;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 20px;
+    
+}
+.productzone p{
+    color: green;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.product1zone{
+ display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product1zone img{
+    width: auto;
+    height: 22rem;
+border: 13px solid rgb(163, 194, 178);
+}
+.product1zone .atag{
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px 27px 10px 27px;
+    margin: 28px auto;
+    font-size: 20px;
+    
+}
+#becomesell{
+    display: flex;
+    background-image: url("img/back3.jpg");
+    justify-content: flex-end;
+    align-items: center;
+    width: 85%;
+    height: 33rem;
+    margin: 7px auto;
+    background-size: cover;
+    padding: 28px;
+    margin-bottom: 55px;
+}
+.bseller{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+}
+.bseller h1{
+    color: blue;
+}
+.bseller p{
+    font-size: 47px;
+    color: rgb(235, 86, 185);
+    font-weight: 700;
+}
+.downloadlink{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.dplaystore a{
+    text-decoration: none;
+    margin: 15px 13px 15px 0px;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    background-color: black;
+    border-radius: 3px;
+}
+.dplaystore img{
+    width: 33px;
+    border-radius: 7px;
+}
+.dplaystore div p span{
+    color: white;
+    font-size: small;
+    margin: 0%;
+    padding: 0%;
+}
+.dplaystore div p{
+    color: white;
+    font-size: large;
+    margin: 0%;
+    padding: 0%;
+}
+#meeshobussiness{
+    background-image: url("img/back4.jpg");
+    background-size: cover;
+    width: 85%;
+    height: 22rem;
+    margin: 2px auto;
+    padding: 60px;
+    box-shadow: inset 100px 100px 100px black;
+    margin-bottom: 55px;
+
+}
+#meeshobussiness ul{
+    display: flex;
+    list-style: none;
+}
+#meeshobussiness ul li{
+    border-right: 2px solid white;
+    padding: 5px 40px 5px 15px;
+}
+#meeshobussiness ul li:nth-child(3){
+    border: 0px;
+}
+#meeshobussiness ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#meeshobussiness ul a svg{
+    color: green;
+    background-color: white;
+    border-radius: 150px;
+}
+#meeshobussiness h1,p{
+    color: white;
+
+}
+#meeshobussiness p{
+    font-size: 20px;
+}
+#meeshobussiness .ataga{
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(235, 86, 185);
+    font-size: 17px;
+    text-decoration: none;
+    background-color: white;
+}
+#lastpagelist{
+    background-color: rgb(245, 245, 245);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#LastPageDiscription{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+#LastPageDiscription *{
+    color: rgba(0, 0, 0, 0.76);
+}
+.linksapp{
+    margin: 10px;
+    width: 83%;
+}
+.linksapp p{
+    font-size: 19px;
+}
+.linksapp img{
+    border-radius: 6px;
+    width: 45%;
+    height: 55px;
+}
+.someimpotantLink{
+    width: 38%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.someimpotantLink a{
+    text-decoration: none;
+    padding: 8px 0px 8px 0px;
+    font-size: 18px;
+}
+.socialLinks{
+    width: 38%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.socialLinks a{
+    text-decoration: none;
+    padding: 8px 0px 8px 0px;
+    font-size: 18px;
+}
+.socialLinks p{
+    font-size: 22px;
+    color: black;
+    font-weight: 650;
+}
+.contactinfo{
+    width: 38%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactinfo p{
+    font-size: small;
+}
+.accordion{
+    margin: 12px auto;
+    width: 98%;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    border: 1px solid rgb(202, 202, 200);
+
+}
+.accordion .contentBx .label{
+    position:relative;
+    padding: 10px;
+    color: rgb(13, 97, 175);
+    cursor: pointer;
+}
+.accordion .contentBx .label::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(-50%);
+    font-size: 1.5em;
+
+}
+.accordion .contentBx .content{
+    position: relative;
+    background: white;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+.accordion .contentBx.active .content{
+    height: 150px;
+    padding: 10px;
+}
